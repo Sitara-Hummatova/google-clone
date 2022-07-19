@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+.icon-1, 
+.icon-2, 
+.icon-3{
+
+    width: 24px;
+    height: 24px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.esas{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+
+}
+
+nav a {
+    padding: 7px;
+    color: #000;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
