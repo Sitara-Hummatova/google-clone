@@ -1,9 +1,15 @@
 *{
-    margin: 0%;
+    margin:0%;
     text-decoration: none;
     box-sizing: border-box;
+    outline: none;
     
 }
+
+:root{
+    --google-nav-btn:#1a73e8
+}
+
 .icon-1, 
 .icon-2, 
 .icon-3{
@@ -21,8 +27,9 @@ body{
 .esas{
 height: 100%;
 display: flex;
-flex-direction: column;
+flex-direction:column;
 justify-content: space-between;
+
 
 }
 
@@ -31,6 +38,8 @@ nav{
     justify-content: flex-end;
     align-items: center;
     padding: 10px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
 
 }
 
@@ -43,3 +52,118 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+nav >button{
+    cursor: pointer;
+    background: var(--google-nav-btn);
+    color: #fff;
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    
+}
+ nav> button:hover{
+    background-color: #227bee;
+ }
+
+ section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .axtar{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center*/
+    position: relative;
+    width: 584px;
+    font-family: arial,sans-serif;
+ }
+  .axtar input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    opacity: 0.7;
+    border: 1px solid #dedede;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+   .axtar input:hover{
+    box-shadow: #000;
+   }
+   .icon-2{
+    position: absolute;
+    top: 13%;
+    left: 2%;
+    opacity: 0.7;
+
+   }
+    .icon-3{
+    position: absolute;
+    right: 2%;
+    top: 13%;
+    }
+
+  .buttonlar{
+    align-self: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    color: #202124;
+    
+  }
+   
+  .buttonlar button{
+    padding: 12px 15px;
+    border: transparent;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    background: #f8f9fa;
+    border-radius: 5px;
+  }
+  .gap{
+    width: 865px;
+    height: 246px;
+  }
+   
+  footer{
+    display: flex;
+    background: #f2f2f2;
+    flex-direction: column;
+   
+  }
+  h4{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 14px;
+    color: #70757a;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+}
+ .footerlink{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    
+    
+ }
+  
+ .saglinks , .sollinks  {
+   padding: 15px ;
+  }
+    footer a{
+        padding: 13px;
+        font-size: 14px;
+        font-family: arial,sans-serif;
+        color:#70757a;
+    }
+     footer a:hover{
+        text-decoration: underline;
+     }
+
+    
