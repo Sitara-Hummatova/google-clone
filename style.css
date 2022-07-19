@@ -1,5 +1,5 @@
 *{
-    margin:0%;
+    margin:0;
     text-decoration: none;
     box-sizing: border-box;
     outline: none;
@@ -37,14 +37,14 @@ nav{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px;
+    padding: 11px;
     font-family: arial,sans-serif;
     font-size: 13px;
 
 }
 
 nav a {
-    padding: 7px;
+    padding: 9px;
     color: #000;
 
 }
@@ -66,6 +66,7 @@ nav >button{
     background-color: #227bee;
  }
 
+
  section{
     display: flex;
     flex-direction: column;
@@ -76,11 +77,12 @@ nav >button{
  .axtar{
     display: flex;
     flex-direction: column;
-    /*align-items: center*/
     position: relative;
     width: 584px;
     font-family: arial,sans-serif;
  }
+  
+  
   .axtar input{
     width: 100%;
     padding: 15px;
@@ -90,8 +92,8 @@ nav >button{
     padding-left: 45px;
     padding-right: 45px;
   }
-   .axtar input:hover{
-    box-shadow: #000;
+    input:hover{
+      box-shadow: 1px 1px 3px rgb(192, 185, 185);
    }
    .icon-2{
     position: absolute;
@@ -104,7 +106,10 @@ nav >button{
     position: absolute;
     right: 2%;
     top: 13%;
+    cursor: pointer;
     }
+
+    
 
   .buttonlar{
     align-self: center;
@@ -114,6 +119,12 @@ nav >button{
     color: #202124;
     
   }
+
+  .buttonlar button:hover{
+    box-shadow: 0px 1px 1px 1px rgb(192, 185, 185);
+  }
+
+  
    
   .buttonlar button{
     padding: 12px 15px;
@@ -133,34 +144,29 @@ nav >button{
     display: flex;
     background: #f2f2f2;
     flex-direction: column;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color:#70757a;
    
   }
   h4{
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
-    font-size: 14px;
-    color: #70757a;
-    font-family: arial,sans-serif;
-    font-size: 15px;
+    color:#70757a
+        
+    
 }
  .footerlink{
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
-    font-family: arial,sans-serif;
-    color: #202124;
-    
-    
  }
   
  .saglinks , .sollinks  {
    padding: 15px ;
   }
     footer a{
-        padding: 13px;
-        font-size: 14px;
-        font-family: arial,sans-serif;
-        color:#70757a;
+        padding: 14px;
+        color:#70757a
     }
      footer a:hover{
         text-decoration: underline;
